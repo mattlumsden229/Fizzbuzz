@@ -7,9 +7,9 @@ function fizzbuzz() {
     for (i = 1; i <= num; i++) {
       if (i % 3 === 0 && i % 5 === 0) {
         displayHTML += "<p>" + i + 'fizzbuzz' + "</p>"
-      } else if (i % 5 === 0) {
-        displayHTML += "<p>" + i + 'fizz' + "</p>"
       } else if (i % 3 === 0) {
+        displayHTML += "<p>" + i + 'fizz' + "</p>"
+      } else if (i % 5 === 0) {
         displayHTML += "<p>" + i + 'buzz' + "</p>"
       } else {
         displayHTML += "<p>" + i + "</p>"
